@@ -18,6 +18,9 @@
             background-attachment: fixed;
         }
 
+
+       
+        
     
  
         html{
@@ -98,8 +101,17 @@
             text-decoration: none;
             transition: 0.3s;   
         }
- 
-        
+
+            @media (max-width:600px ) {
+            nav a {
+                display: block;
+                margin: 10px auto;
+                width: 80%;
+                text-align: center;
+            }
+        }
+
+
 
         header{
 
